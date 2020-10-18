@@ -45,14 +45,26 @@ Training Data can be obtained from various online sources, self-procured or can 
 
 * Change the Number of Epochs, Learning Rate, Batch Size and check your test accuracy everytime.
 
-2) Modify the code for better performance by using two GPUs and check your GPU performance again and test accuracy.
+2) Modify the code for better performance by using two GPUs and check your GPU performance again and test accuracy. Also try changing the CNN model to different models. Refer - https://pytorch.org/docs/stable/torchvision/models.html 
 
 3) Plotting the accuracy against the number of training Epochs on a Graph using matplotlib. Plotting the graph for Epochs in range vs Training Accuracy. 
 
-4) 
+4) Improving the network model for better training accuracy using different CNN model, batch size, Learning rate, and Epochs. Plotting the graph everytime for analyzing.
 
-
+5) Performing a model inference for a certain images. You can change other images. The image shall include the object which belongs to the category of the training dataset.
 
 # Dependencies
 
-CIFAR 10 Dataset - https://www.cs.toronto.edu/~kriz/cifar.html (Python Version)
+* Multiple GPU 
+* CIFAR 10 Dataset - https://www.cs.toronto.edu/~kriz/cifar.html (Python Version)
+* Jupyter Notebook
+* Matplotlib python
+
+# License
+Copyright (C) 2020 Chinmay Rathod.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/
