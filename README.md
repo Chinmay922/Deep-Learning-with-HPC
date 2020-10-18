@@ -45,20 +45,82 @@ Training Data can be obtained from various online sources, self-procured or can 
 
 Change the Number of Epochs, Learning Rate, Batch Size and check your test accuracy everytime.
 
+##Test Accuracy
+
+![](Images/image1.png)
+
+##GPU percentage
+
+![](Images/image2.png)
+
 2) Modify the code for better performance by using two GPUs and check your GPU performance again and test accuracy. Also try changing the CNN model to different models. Refer - https://pytorch.org/docs/stable/torchvision/models.html 
+
+##Test Accuracy
+
+![](Images/image3.png)
+
+##GPU percentage using 1 GPU
+
+![](Images/image4.png)
+
+##GPU percentage using 2 GPU
+
+![](Images/image5.png)
 
 3) Plotting the accuracy against the number of training Epochs on a Graph using matplotlib. Plotting the graph for Epochs in range vs Training Accuracy. 
 
+## Graph
+
+![](Images/image6.png)
+
 4) Improving the network model for better training accuracy using different CNN model, batch size, Learning rate, and Epochs. Plotting the graph everytime for analyzing.
+
+##Test Accuracy
+
+![](Images/image7.png)
+
+##GPU percentage using 1 GPU
+
+![](Images/image8.png)
+
+## Graph
+
+![](Images/image9.png)
 
 5) Performing a model inference for a certain images. You can change other images. The image shall include the object which belongs to the category of the training dataset.
 
+## Model Inference with Result
+
+![](Images/image10.png)
+
+![](Images/image11.png)
+
+![](Images/image12.png)
+
 # Dependencies
 
+* Python > 3
 * Multiple GPU 
 * CIFAR 10 Dataset - https://www.cs.toronto.edu/~kriz/cifar.html (Python Version)
 * Jupyter Notebook
 * Matplotlib python
+* CUDA 11
+* pytorch
+* torchvision
+
+# Challenges
+
+1) Jupyter Notebook Environment Issue
+
+(Attention: if you install those modules under a certain environment variable)
+You may encounter this error when running the base.ipynb in Jupyter Hub:
+"no module named torch"
+It means your Jupyter notebook is running in the default python environment, but your torch module is installed in your Conda virtual environment. You will need to run Jupyter notebook in your virtual env.
+Here is a tutorial: https://janakiev.com/blog/jupyter-virtual-envs/
+
+2) HTTP 800 connection Failed
+
+###Solution - use this command -  export LD_PRELOAD=""
 
 # License
 Copyright (C) 2020 Chinmay Rathod.
