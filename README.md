@@ -39,8 +39,11 @@ Training Data can be obtained from various online sources, self-procured or can 
 *	Train the network on the training data with different number of Epochs (reference).  # https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9
 
 
+# Tasks 
 
+1 Run the existing sample code “base.ipynb”. During the training check what is your GPU usage percentage using the command “nvidia-smi –l”.
 
+* Change the Number of Epochs, Learning Rate, Batch Size and check your test accuracy everytime.
 
 
 
