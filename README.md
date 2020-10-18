@@ -43,7 +43,7 @@ Training Data can be obtained from various online sources, self-procured or can 
 
 1) Run the existing sample code “base.ipynb”. During the training check what is your GPU usage percentage using the command “nvidia-smi –l”.
 
-* Change the Number of Epochs, Learning Rate, Batch Size and check your test accuracy everytime.
+Change the Number of Epochs, Learning Rate, Batch Size and check your test accuracy everytime.
 
 2) Modify the code for better performance by using two GPUs and check your GPU performance again and test accuracy. Also try changing the CNN model to different models. Refer - https://pytorch.org/docs/stable/torchvision/models.html 
 
