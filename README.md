@@ -1,11 +1,11 @@
 # Deep-Learning-with-HPC
 
-# Goal
+## Goal
 Training a Pytorch Deep learning model on a Jupyter Notebook with a High Performance Computer and GPU.
 
-# Steps to follow
+## Steps to follow
 
-## Create a Conda virtual environment in the terminal
+### Create a Conda virtual environment in the terminal
 
 Follow the steps in bullet points
 * module add anaconda3/5.1.0
@@ -17,7 +17,7 @@ This environment, once created/modified is saved and can be accessed later throu
 * source activate NAME_OF_ENV                                  # (Activate Environment)
 * source deactivate NAME_OF_ENV                                # (Deactivate Environment)
 
-## Install necessary packages in the terminal
+### Install necessary packages in the terminal
 Add cuda and cudnn module:
 
 * module add cuda-toolkit/10.0.130
@@ -25,7 +25,7 @@ Add cuda and cudnn module:
 
 Install Pytorch and Torchvision libraries using conda fro here  # https://pytorch.org/get-started/locally/
 
-## Training deep learning model for Image Classification
+### Training deep learning model for Image Classification
 
 Download the base code from the Base_code fo;lder -  base.ipynb, common.py and models.py. The base.ipynb allows you to use your web browser as the GUI to run/edit/debug.
 
@@ -39,9 +39,9 @@ Training Data can be obtained from various online sources, self-procured or can 
 *	Train the network on the training data with different number of Epochs (reference).  # https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9
 
 
-# Tasks 
+## Tasks 
 
-1) Run the existing sample code “base.ipynb”. During the training check what is your GPU usage percentage using the command “nvidia-smi –l”.
+### 1) Run the existing sample code “base.ipynb”. During the training check what is your GPU usage percentage using the command “nvidia-smi –l”.
 
 Change the Number of Epochs, Learning Rate, Batch Size and check your test accuracy everytime.
 
@@ -53,7 +53,7 @@ Change the Number of Epochs, Learning Rate, Batch Size and check your test accur
 
 ![](Images/image2.png)
 
-2) Modify the code for better performance by using two GPUs and check your GPU performance again and test accuracy. Also try changing the CNN model to different models. Refer - https://pytorch.org/docs/stable/torchvision/models.html 
+### 2) Modify the code for better performance by using two GPUs and check your GPU performance again and test accuracy. Also try changing the CNN model to different models. Refer - https://pytorch.org/docs/stable/torchvision/models.html 
 
 ##Test Accuracy
 
@@ -67,13 +67,13 @@ Change the Number of Epochs, Learning Rate, Batch Size and check your test accur
 
 ![](Images/image5.png)
 
-3) Plotting the accuracy against the number of training Epochs on a Graph using matplotlib. Plotting the graph for Epochs in range vs Training Accuracy. 
+### 3) Plotting the accuracy against the number of training Epochs on a Graph using matplotlib. Plotting the graph for Epochs in range vs Training Accuracy. 
 
 ## Graph
 
 ![](Images/image6.png)
 
-4) Improving the network model for better training accuracy using different CNN model, batch size, Learning rate, and Epochs. Plotting the graph everytime for analyzing.
+### 4) Improving the network model for better training accuracy using different CNN model, batch size, Learning rate, and Epochs. Plotting the graph everytime for analyzing.
 
 ##Test Accuracy
 
@@ -87,9 +87,9 @@ Change the Number of Epochs, Learning Rate, Batch Size and check your test accur
 
 ![](Images/image9.png)
 
-5) Performing a model inference for a certain images. You can change other images. The image shall include the object which belongs to the category of the training dataset.
+### 5) Performing a model inference for a certain images. You can change other images. The image shall include the object which belongs to the category of the training dataset.
 
-## Model Inference with Result
+### Model Inference with Result
 
 ![](Images/image10.png)
 
@@ -97,7 +97,7 @@ Change the Number of Epochs, Learning Rate, Batch Size and check your test accur
 
 ![](Images/image12.png)
 
-# Dependencies
+## Dependencies
 
 * Python > 3
 * Multiple GPU 
@@ -108,7 +108,7 @@ Change the Number of Epochs, Learning Rate, Batch Size and check your test accur
 * pytorch
 * torchvision
 
-# Challenges
+## Challenges
 
 1) Jupyter Notebook Environment Issue
 
